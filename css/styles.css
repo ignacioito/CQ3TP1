@@ -11,3 +11,12 @@ body{
 #spots{
 	padding: 20px;
 }
+
+#photoCom{
+	border-radius: 50%;
+
+}
+
+#pad{
+	padding-right: 20px;
+}
