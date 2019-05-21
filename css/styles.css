@@ -8,6 +8,11 @@ body{
 
 }
 
+#logoNom{
+	font-size: 48px;
+
+}
+
 #spots{
 	padding: 20px;
 }

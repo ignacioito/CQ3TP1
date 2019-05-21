@@ -1,68 +1,157 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>teste</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-</head>
-<body>
+        <!DOCTYPE html>
+    <html>
+    <head>
+        <title>IG - reservationion</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+    </head>
+    <body>
 
-<table align="center">
-    <thead>
-    <tr>
-        <th><img src="img/logo.png" alt="logo" height="50" width="50"></th>
-        <td>Agence Bloum Voyage</td>
-    </tr>
-    </thead>
-</table>
+    <table align="center">
+        <thead>
+        <tr>
+            <th><img src="img/logo.png" alt="logo" height="100" width="100"></th>
+            <td id="logoNom">Agence Bloum Voyage</td>
+        </tr>
+        </thead>
+    </table>
 
-<table align="center">
-    
-    <thead>
-    <tr>
-        <th><a href="index.html">Accueil</a></th>
-        <th><a href="reservation.html">Réservation</a></th>
-        <th><a href="contact.html">Contact</a></th>
-        <th></th><th></th>
-        <th></th><th></th>
-        <th></th><th></th>
-        <th></th><th></th>
-        <th></th><th></th>
-        <th></th><th></th>
-        <th></th><th></th>
-        <th></th><th></th>
-        <th></th><th></th>
-        <th></th><th></th>
-        <th></th><th></th>
-        <th></th><th></th>
-        <th></th><th></th>
-        <th></th><th></th>
-        <th></th><th></th>
+    <table align="center">
+        
+        <thead>
+        <tr>
+            <th><a href="index.html">Accueil</a></th>
+            <th><a href="reservation.html">Réservation</a></th>
+            <th><a href="contact.html">Contact</a></th>
+            <th></th><th></th>
+            <th></th><th></th>
+            <th></th><th></th>
+            <th></th><th></th>
+            <th></th><th></th>
+            <th></th><th></th>
+            <th></th><th></th>
+            <th></th><th></th>
+            <th></th><th></th>
+            <th></th><th></th>
+            <th></th><th></th>
+            <th></th><th></th>
+            <th></th><th></th>
+            <th></th><th></th>
+            <th></th><th></th>
 
-        <th></th><th></th>
-        <th></th><th></th>
-        <th></th><th></th>
-        <th></th><th></th>
-        <th></th><th></th>
-        <th></th><th></th>
-        <th></th><th></th>
-        <th></th><th></th>
-        <th></th><th></th>
-        <th></th><th></th>
-        <th></th><th></th>
-        <th></th><th></th>
-        <th></th><th></th>
-        <th></th><th></th>
-        <th></th><th></th>
-    </tr>
-    <td colspan="63"><img src="img/banner.jpg"></td>
-    </thead>
-</table>
+            <th></th><th></th>
+            <th></th><th></th>
+            <th></th><th></th>
+            <th></th><th></th>
+            <th></th><th></th>
+            <th></th><th></th>
+            <th></th><th></th>
+            <th></th><th></th>
+            <th></th><th></th>
+            <th></th><th></th>
+            <th></th><th></th>
+            <th></th><th></th>
+            <th></th><th></th>
+            <th></th><th></th>
+            <th></th><th></th>
+        </tr>
+        </thead>
+    </table>
+
+    <table id="example" style="width:50%" align="center">
+        <thead>
+            <caption style="font-size: 48px;">Informations Personnelles</caption>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Position</th>
+                <th>Office</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Nom</td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value="61"></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value="System Architect"></td>
+                <td><select size="1" id="row-1-office" name="row-1-office">
+                    <option value="Edinburgh" selected="selected">
+                        Edinburgh
+                    </option>
+                    <option value="London">
+                        London
+                    </option>
+                    <option value="New York">
+                        New York
+                    </option>
+                    <option value="San Francisco">
+                        San Francisco
+                    </option>
+                    <option value="Tokyo">
+                        Tokyo
+                    </option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Adresse</td>
+                <td><input type="text" id="row-2-age" name="row-2-age" value="63"></td>
+                <td><input type="text" id="row-2-position" name="row-2-position" value="Accountant"></td>
+                <td><select size="1" id="row-2-office" name="row-2-office">
+                    <option value="Edinburgh">
+                        Edinburgh
+                    </option>
+                    <option value="London">
+                        London
+                    </option>
+                    <option value="New York">
+                        New York
+                    </option>
+                    <option value="San Francisco">
+                        San Francisco
+                    </option>
+                    <option value="Tokyo" selected="selected">
+                        Tokyo
+                    </option>
+                </select></td>
+            </tr>
+
+            <tr>
+                <td>Telephone</td>
+                <td><input type="text" id="row-1-age" name="row-1-age" value="61"></td>
+                <td><input type="text" id="row-1-position" name="row-1-position" value="System Architect"></td>
+                <td><select size="1" id="row-1-office" name="row-1-office">
+                    <option value="Edinburgh" selected="selected">
+                        Edinburgh
+                    </option>
+                    <option value="London">
+                        London
+                    </option>
+                    <option value="New York">
+                        New York
+                    </option>
+                    <option value="San Francisco">
+                        San Francisco
+                    </option>
+                    <option value="Tokyo">
+                        Tokyo
+                    </option>
+                </select></td>
+            </tr>
+           
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Position</th>
+                <th>Office</th>
+            </tr>
+        </tfoot>
+    </table>
 
 
+    <footer>
+        
+    </footer>
 
-<footer>
-    
-</footer>
-
-</body>
-</html>
+    </body>
+    </html>
