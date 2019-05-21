@@ -1,0 +1,16 @@
+Le but de ce Travail Pratique est de se familiariser avec les fondations de la programmation Web en procédant
+au développement et au contrôle de la qualité d’un site web statique.
+À faire seul.
+Ce TP doit utiliser HTML et CSS seulement et respecter leurs standards. Vous devez procéder
+vous-même à la programmation entière du site.
+Il s’agit de programmer le site d’une agence de voyage « Agence Bloum Voyage ». Voici les
+éléments importants dans ce site :
+- Ce site contient 3 pages html: accueil, réservation et contact
+- Ce site doit avoir un menu en haut de chaque page html qui permet de visiter les 3 pages
+html. Les pages vont s’afficher dans la même fenêtre.
+- Chaque page sera structurée en des zones comme on l’a vu en cours : en-tête, menu,
+sections et pied de page.
+- Chaque page doit être bien structurée et contenir tous les éléments d’une page html.
+- Les pages doivent être testées avec le navigateur Chrome.
+Note : nous allons utiliser dans ce TP les tableaux pour structurer les pages HTML mais comme
+on le verra dans le cours CSS, il existe d’autres moyens plus efficaces pour faire cette tâche.
