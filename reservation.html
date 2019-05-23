@@ -3,6 +3,7 @@
     <head>
         <title>IG - reservationion</title>
         <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <meta charset="utf-8">
     </head>
     <body>
 
@@ -14,7 +15,13 @@
         </tr>
         </thead>
     </table>
-
+    <div class="div first">
+    <nav id="menu">
+        <a href="index.html">Accueil</a>
+        <a href="reservation.html">Réservation</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    </div>
     <table align="center">
         
         <thead>
@@ -56,101 +63,50 @@
         </tr>
         </thead>
     </table>
-
+    <div class="div second">
     <table id="example" style="width:50%" align="center">
         <thead>
-            <caption style="font-size: 48px;">Informations Personnelles</caption>
-            <tr>
-                <th>Name</th>
-                <th>Age</th>
-                <th>Position</th>
-                <th>Office</th>
-            </tr>
+            <caption style="font-size: 24px;">Informations Personnelles</caption>
+           
         </thead>
         <tbody>
             <tr>
                 <td>Nom</td>
                 <td><input type="text" id="row-1-age" name="row-1-age" value="61"></td>
                 <td><input type="text" id="row-1-position" name="row-1-position" value="System Architect"></td>
-                <td><select size="1" id="row-1-office" name="row-1-office">
-                    <option value="Edinburgh" selected="selected">
-                        Edinburgh
-                    </option>
-                    <option value="London">
-                        London
-                    </option>
-                    <option value="New York">
-                        New York
-                    </option>
-                    <option value="San Francisco">
-                        San Francisco
-                    </option>
-                    <option value="Tokyo">
-                        Tokyo
-                    </option>
-                </select></td>
+                
             </tr>
             <tr>
                 <td>Adresse</td>
                 <td><input type="text" id="row-2-age" name="row-2-age" value="63"></td>
                 <td><input type="text" id="row-2-position" name="row-2-position" value="Accountant"></td>
-                <td><select size="1" id="row-2-office" name="row-2-office">
-                    <option value="Edinburgh">
-                        Edinburgh
-                    </option>
-                    <option value="London">
-                        London
-                    </option>
-                    <option value="New York">
-                        New York
-                    </option>
-                    <option value="San Francisco">
-                        San Francisco
-                    </option>
-                    <option value="Tokyo" selected="selected">
-                        Tokyo
-                    </option>
-                </select></td>
+                
             </tr>
 
             <tr>
                 <td>Telephone</td>
                 <td><input type="text" id="row-1-age" name="row-1-age" value="61"></td>
+                <td>Telephone</td>
                 <td><input type="text" id="row-1-position" name="row-1-position" value="System Architect"></td>
-                <td><select size="1" id="row-1-office" name="row-1-office">
-                    <option value="Edinburgh" selected="selected">
-                        Edinburgh
-                    </option>
-                    <option value="London">
-                        London
-                    </option>
-                    <option value="New York">
-                        New York
-                    </option>
-                    <option value="San Francisco">
-                        San Francisco
-                    </option>
-                    <option value="Tokyo">
-                        Tokyo
-                    </option>
-                </select></td>
+                
             </tr>
-           
+            <td>
+                <select size="1" id="row-1-office" name="row-1-office">
+                    <input value="Oui" name="assurance" type="radio" checked>
+                        Oui
+                    </input>
+                    <input value="Non" name="assurance" type="radio">
+                        Non
+                    </input>
+                    
+                </select>
+            </td>
         </tbody>
-
-        <tfoot>
-            <tr>
-                <th>Name</th>
-                <th>Age</th>
-                <th>Position</th>
-                <th>Office</th>
-            </tr>
-        </tfoot>
     </table>
-
+    </div>
 
     <footer>
-        
+        <h3>Bloum Voyages détient un permis du Québec. Nous contacter</h3>
     </footer>
 
     </body>
