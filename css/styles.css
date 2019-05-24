@@ -16,8 +16,30 @@ body{
 	padding: 20px 70px 0px 70px;
 }
 
-#menu{
-	padding: 0% 50% 0% 0%;
+ul{
+	list-style-type: none;
+  	margin: 0;
+  	overflow: hidden;
+  	background-color: #fff;
+	padding: 0% 5% 0% 0%;
+}
+
+li {
+	float: left
+}
+
+li a{
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#banner{
+	width: 100%;
+	margin: 0 auto;
 }
 
 #photoCom{
@@ -37,6 +59,7 @@ body{
 	position: relative;
 	margin: 0% 5% 0% 5%;
 	width: 90%;
+	background-color: yellow;
 }
 
 .second{
