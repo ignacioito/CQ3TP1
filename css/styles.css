@@ -8,8 +8,9 @@ body{
 }
 
 #logoNom{
-	font-size: 48px;
-
+	font-size: 28px;
+	padding: 0% 0% 0% 5%;
+	/*background-color: yellow;*/
 }
 
 #spots{
@@ -48,8 +49,7 @@ li a{
 }
 
 #pad{
-	padding: 0% 2% 0% 2%;
-	border-radius: 5%;
+	padding: 5% 5% 5% 5%;
 	background-color: #a2b9bc;
 	text-align: center;
 	border-style: solid;
@@ -57,10 +57,10 @@ li a{
 
 .first{
 	position: relative;
-	margin: 0% 5% 0% 5%;
-	width: 90%;
-	background-color: yellow;
+	width: 100%;
 }
+
+/* Page 2 */
 
 .second{
 	position: relative;
@@ -69,7 +69,37 @@ li a{
 	background-color: grey;
 }
 
+.third{
+	position: relative;
+	margin: 0% 5% 0% 5%;
+	width: 90%;
+	background-color: grey;
+}
+
+/*Page Contact*/
+
+#tableContact{
+	width: 70%;
+}
+
+/*
+*/
+#map{
+	width: 400px;
+	height: 400px;
+}
+
+th{
+	padding: 2%;
+}
+
+#example{
+	 width:50%; 
+	 padding: 0% 0% 5% 0%;
+
+}
+
 footer{
-	background-color: green;
+	background-color: #a2b9bc;
 	text-align: center
 }

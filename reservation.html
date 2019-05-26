@@ -6,7 +6,7 @@
         <meta charset="utf-8">
     </head>
     <body>
-
+    <header>
     <table align="center">
         <thead>
         <tr>
@@ -22,45 +22,88 @@
         <li><a href="contact.html" id="menu">Contact</a></li>
     </ul>
     </div>
-    
+    </header>
     <div class="div second">
-    <table id="example" style="width:50%" align="center">
+    <table id="example" align="center">
         <thead>
-            <caption style="font-size: 24px;">Informations Personnelles</caption>
+            <caption style="font-size: 24px; font-weight: bold; padding: 2%;">Informations Personnelles</caption>
            
         </thead>
         <tbody>
             <tr>
                 <td>Nom</td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value="61"></td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value="System Architect"></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" placeholder="votre nom"></td>
+                <td>Prénom</td>
+                <td><input type="text" id="row-1-position" name="row-1-position" placeholder="votre prénom"></td>
                 
             </tr>
             <tr>
                 <td>Adresse</td>
-                <td><input type="text" id="row-2-age" name="row-2-age" value="63"></td>
-                <td><input type="text" id="row-2-position" name="row-2-position" value="Accountant"></td>
+                <td><input type="text" id="row-2-age" name="row-2-age" placeholder="votre adresse"></td>
+                <td>Date de naissance</td>
+                <td><input type="text" id="row-2-position" name="row-2-position" placeholder="date de naissance"></td>
                 
             </tr>
 
             <tr>
                 <td>Telephone</td>
-                <td><input type="text" id="row-1-age" name="row-1-age" value="61"></td>
-                <td>Telephone</td>
-                <td><input type="text" id="row-1-position" name="row-1-position" value="System Architect"></td>
+                <td><input type="text" id="row-1-age" name="row-1-age" placeholder="telephone"></td>
+                <td>Courriel</td>
+                <td><input type="text" id="row-1-position" name="row-1-position" placeholder="courriel"></td>
                 
             </tr>
-            <td>
-                <select size="1" id="row-1-office" name="row-1-office">
+            <tr>
+                <td>Avez-vous une assurance?</td>
+                <td>
+                
                     <input value="Oui" name="assurance" type="radio" checked>
                         Oui
                     </input>
+                    <br>
                     <input value="Non" name="assurance" type="radio">
                         Non
                     </input>
-                    
-                </select>
-            </td>
+                <td>Commentaire</td>
+                <td><textarea name="Commentaire" placeholder="Commentaire..."></textarea></td>
+                
+                </td>
+
+            </tr>
+        </tbody>
+    </table>
+    </div>
+    <br>
+    <div class="div third">
+    <table id="example" align="center">
+        <thead>
+            <p style="font-size: 24px; font-weight: bold; padding: 2% 0% 0% 25%;">Itinéraire</p>
+           
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="col"></th>
+                <th scope="col">Ville d'épart</th>
+                <th scope="col">Ville d'arrivé</th>
+                <th scope="col">Date d'épart</th>
+                <th scope="col">Date d'arrivé</th>
+            </tr>
+
+            <tr>
+                <th scope="row">Aller</th>
+                <th scope="col"><input type="text" name="row-1-position"></th>
+                <th scope="col"><input type="text" name="row-1-position"></th>
+                <th scope="col"><input type="text" name="row-1-position"></th>
+                <th scope="col"><input type="text" name="row-1-position"></th>
+            </tr>
+
+            <tr>
+                <th scope="row">Retour</th>
+                <th scope="col"><input type="text" name="row-2-position"></th>
+                <th scope="col"><input type="text" name="row-2-position"></th>
+                <th scope="col"><input type="text" name="row-2-position"></th>
+                <th scope="col"><input type="text" name="row-2-position"></th>
+            </tr>
+
         </tbody>
     </table>
     </div>
